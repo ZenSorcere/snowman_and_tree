@@ -6,7 +6,7 @@ def main ():
     
 # setting up Graphics window parameters - title, coordinate size and direction,
   # and background color   
-    win = GraphWin("Happy Holidays!")
+    win = GraphWin("Happy Holidays!", 300, 300)
     win.setCoords(0.0, 0.0, 10.0, 10.0)
     win.setBackground("sky blue")
 
